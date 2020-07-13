@@ -113,7 +113,7 @@ class AwtrixNotificationService(BaseNotificationService):
         if data.get("progress") != None:
             data["progress"] = self._fixint(data["progress"])
 
-         if data.get("soundfile") != None:
+        if data.get("soundfile") != None:
             data["soundfile"] = self._fixint(data["soundfile"])
 
         if data.get("color") != None:
