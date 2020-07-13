@@ -6,7 +6,7 @@ Long time ago i made a  [**hack**](https://forum.blueforcer.de/d/192-home-assist
 
 Now there is this notify-component. Wich will work e.g. with the alert-component.
 
-#Setup
+# Setup
 
 ```yaml
 awtrix:
@@ -17,12 +17,12 @@ notify:
     platform: awtrix
 ```
 
-#Usage
+# Usage
 All parameters unter data will be pushed to awtrix so see the documentation there
 
 The target parameter can be set to notify (default),temporaryapp or customapp
 
-##simple notify
+## simple notify
 ```yaml
 service: notify.awtrix
 data:
@@ -32,7 +32,7 @@ data:
   message: Hello from home-assistant
 ```
 
-##update temporaryapp
+## update temporaryapp
 
 note: the title parameter maps to the name parameter from awtrix
 
@@ -46,7 +46,7 @@ data_template:
   title: sample
 ```
 
-##simple barchart
+## simple barchart
 
 ```yaml
 service: notify.awtrix
